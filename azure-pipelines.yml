@@ -31,3 +31,10 @@ steps:
     customPreset: 'Apple'
     fullTeamName: 'Cxserver'
     incScan: true
+    - task: Security static source code analysis@2020
+  inputs:
+    projectName: 'TEST2'
+    preset: 'Checkmarx Default'
+    customPreset: 'apple'
+    fullTeamName: 'Cxserver'
+    incScan: true
