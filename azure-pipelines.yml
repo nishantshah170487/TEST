@@ -24,13 +24,7 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
-  inputs:
-    projectName: 'TEST_1'
-    preset: 'Checkmarx Default'
-    customPreset: 'Apple'
-    fullTeamName: 'Cxserver'
-    incScan: true
-  inputs:
+   inputs:
     projectName: 'TEST2'
     preset: 'Checkmarx Default'
     customPreset: 'apple'
