@@ -24,7 +24,8 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
-   inputs:
+  
+  inputs:
     projectName: 'TEST2'
     preset: 'Checkmarx Default'
     customPreset: 'apple'
